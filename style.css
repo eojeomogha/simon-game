@@ -1,0 +1,70 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.color1 {
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 200px;
+    background: red;
+    float: left;
+}
+
+.color1:hover {
+    background: lightcoral;
+}
+
+.color2 {
+    width: 100px;
+    height: 100px;
+    border-top-right-radius: 200px;
+    background: orange;
+    float: right;
+}
+
+.color2:hover {
+    background: yellow;
+}
+
+.color3 {
+    width: 100px;
+    height: 100px;
+    border-bottom-left-radius: 200px;
+    background: blue;
+    float: left;
+}
+
+.color3:hover {
+    background: lightblue;
+}
+
+.color4 {
+    width: 100px;
+    height: 100px;
+    border-bottom-right-radius: 200px;
+    background: green;
+    float: right;
+}
+
+.color4:hover {
+    background: lightgreen;
+}
+
+.black-bg {
+  background: black;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
